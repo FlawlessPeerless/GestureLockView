@@ -70,7 +70,7 @@ public class GesturePoint {
 
     protected void drawChecked(Canvas canvas, Paint paint) {
         paint.setColor(Color.BLUE);
-        paint.setStyle(Paint.Style.STROKE);
+        paint.setStyle(Paint.Style.STROKE); 
         paint.setStrokeWidth(4);
         canvas.drawCircle(x, y, diameter / 2, paint);
         paint.setStyle(Paint.Style.FILL);
